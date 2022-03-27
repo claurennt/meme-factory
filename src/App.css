@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 4rem;
+  margin: 12px 0 0 0;
+}
+img {
+  width: 30vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  margin: 20px;
+  line-height: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  margin: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input {
+  width: 15vw;
+}
+input[type="file"] {
+  display: none;
+}
+button,
+.custom-file-upload,
+.download,
+.reset {
+  border: 1px solid black;
+  font-size: 12px;
+  font-family: "Righteous", cursive;
   color: white;
+  padding: 5px;
+  margin-bottom: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+button,
+.custom-file-upload {
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f09819,
+    #ff512f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f09819,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.download {
+  background: #ffb347; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffcc33,
+    #ffb347
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffcc33, #ffb347);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset {
+  margin: 12px;
+  background: #e53935; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e35d5b,
+    #e53935
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e35d5b, #e53935);
 }
