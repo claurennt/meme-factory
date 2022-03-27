@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/meme-factory/static/css/main.be687d4c.css",
+    "main.js": "/meme-factory/static/js/main.24f9e768.js",
+    "static/media/impact.ttf": "/meme-factory/static/media/impact.0294f8285a2493417c09.ttf",
+    "index.html": "/meme-factory/index.html",
+    "main.be687d4c.css.map": "/meme-factory/static/css/main.be687d4c.css.map",
+    "main.24f9e768.js.map": "/meme-factory/static/js/main.24f9e768.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be687d4c.css",
+    "static/js/main.24f9e768.js"
+  ]
+}
