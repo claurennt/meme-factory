@@ -41,7 +41,7 @@ function App() {
   const handleRandomPicture = () => {
     setMemeText({});
     setCustomPic(null);
-    setRandomIndex(Math.floor(Math.random() * 100));
+    setRandomIndex(Math.floor(Math.random() * memes.length));
   };
 
   const handlePictureUpload = (e) => {
